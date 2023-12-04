@@ -105,7 +105,8 @@ AUTOIDLE_STATE_TIMEOUT = timedelta(seconds=1)
 MODEL_MAP = {'Muzo_Mini': 'WiiM Mini',
              'WiiM_Pro_with_gc4a': 'WiiM Pro'}
 
-SOURCES = {'line-in': 'Analog', 
+SOURCES = {'ethernet': 'Network',
+           'line-in': 'Analog', 
            'optical': 'Toslink'}
 
 SOURCES_MAP = {'-1': 'Idle', 
